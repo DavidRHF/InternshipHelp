@@ -45,7 +45,7 @@ The following is a simple 2-3 minute tutorial on changing the domain name of you
 5. You should now be able to see your name is changed.
 
 **This is what your screen should resemble**
-![Picture 3](images/ForwardersIPChange.png)
+![Picture 3](images/ElasticFleet.png)
 
 
 
