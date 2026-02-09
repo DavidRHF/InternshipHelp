@@ -32,4 +32,4 @@ The following is a simple 2-3 minute tutorial on changing the domain name of you
    - Click Ok
    - Click Apply and then Ok
 **If you're having any trouble, this is what the forwarders section should look like**
-
+![Picture 2](images/ForwardersIPChange.png)
