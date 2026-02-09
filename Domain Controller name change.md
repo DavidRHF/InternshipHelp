@@ -47,6 +47,10 @@ The following is a simple 2-3 minute tutorial on changing the domain name of you
 **This is what your screen should resemble**
 ![Picture 3](images/ElasticFleet.png)
 
+### *Step 5: Make sure DNS is connected* ###
+1. Try and load onto a couple websites.
+2. This is the make sure our DNS is connected and we have access to the internet.
+
 
 
 
