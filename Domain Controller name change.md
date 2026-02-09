@@ -14,7 +14,7 @@ The following is a simple 2-3 minute tutorial on changing the domain name of you
 5. Change your DC name to: DC-[Your Bonaventure Username]
 
 **Once you get to this step, it should look something like this**
-![Picture 1](images/ServerManagerNameChange.png)
+![Picture 1](images/NameChange.png)
 
 6. Once your name is correct, hit Ok.
 7. It should then take you back to the properties screen. From there just hit apply and then Ok.
