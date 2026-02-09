@@ -31,5 +31,6 @@ The following is a simple 2-3 minute tutorial on changing the domain name of you
    - Change the IP address to 192.168.1.1
    - Click Ok
    - Click Apply and then Ok
+
 **If you're having any trouble, this is what the forwarders section should look like**
 ![Picture 2](images/ForwardersIPChange.png)
