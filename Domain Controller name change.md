@@ -39,8 +39,8 @@ The following is a simple 2-3 minute tutorial on changing the domain name of you
 1. Launch any browser.
 2. Navigate to SecurityOnion (found at 192.168.1.5/#/)
 3. Sign in should be:
-   -Username: lab@lab.local
-   -Password: Passw0rd!
+   - Username: lab@lab.local
+   - Password: Passw0rd!
 4. On the side bar you should see Elastic Fleet, click on it.
 5. You should now be able to see your name is changed.
 
