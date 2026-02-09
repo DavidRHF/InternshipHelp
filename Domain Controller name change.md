@@ -1,12 +1,12 @@
-*Changing your Domain Controller name*
+#Changing your Domain Controller name#
 
 The following is a simple 2-3 minute tutorial on changing the domain name of your Domain Controller.
 
-***Step 1:***
+###*Step 1:*###
 1. Navigate to vl.sbu.edu:8006.
 2. Once signed in, log into your Domain Controller using the normal sign in.
 
-***Step 2:***
+###*Step 2:*###
 1. Locate Server Manager on the task bar.
 2. Click on the Local Server side menu.
 3. Find and click the computer name option. (It should be the first one)
