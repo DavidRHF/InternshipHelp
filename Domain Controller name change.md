@@ -2,11 +2,11 @@
 
 The following is a simple 2-3 minute tutorial on changing the domain name of your Domain Controller.
 
-### *Step 1:* ###
+### *Step 1: Log in* ###
 1. Navigate to vl.sbu.edu:8006.
 2. Once signed in, log into your Domain Controller using the normal sign in.
 
-### *Step 2:* ###
+### *Step 2: Name Change* ###
 1. Locate Server Manager on the task bar.
 2. Click on the Local Server side menu.
 3. Find and click the computer name option. (It should be the first one)
@@ -20,7 +20,7 @@ The following is a simple 2-3 minute tutorial on changing the domain name of you
 7. It should then take you back to the properties screen. From there just hit apply and then Ok.
 8. Restart your vm computer.
 
-### *Step 3:* ###
+### *Step 3: IP Forwarder Change* ###
 1. Click on the Tools dropdown located at the top right of Server Manager.
 2. Find the DNS subsection and click on it.
 3. Right click on your computer name. It should resemble: DC-[Your Bonaventure Username]
@@ -34,3 +34,20 @@ The following is a simple 2-3 minute tutorial on changing the domain name of you
 
 **If you're having any trouble, this is what the forwarders section should look like**
 ![Picture 2](images/ForwardersIPChange.png)
+
+### *Step 4: Check if it worked* ###
+1. Launch any browser.
+2. Navigate to SecurityOnion (found at 192.168.1.5/#/)
+3. Sign in should be:
+   -Username: lab@lab.local
+   -Password: Passw0rd!
+4. On the side bar you should see Elastic Fleet, click on it.
+5. You should now be able to see your name is changed.
+
+**This is what your screen should resemble**
+![Picture 3](images/ForwardersIPChange.png)
+
+
+
+
+
