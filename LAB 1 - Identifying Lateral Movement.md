@@ -6,19 +6,19 @@ Navigate to the Kali VM and run this remote command on the DC:
 
 `crackmapexec smb <DC_IP> -u Administrator -p 'Passw0rd!' -x 'whoami /all'`
 
------
+----------
 
 #### What does this command do when broken down? ####
 
 The security tool:
-1. crackmapexec
+1. crackmapexec (CME)
    - Post-exploitation tool commonly used in penetration testing
    - Legitimate uses:
       - U
    - Illegitimate uses
-      -
+      - U
 
------
+----------
 
 #### Required entries after crackmapexec: ####
 
@@ -39,7 +39,9 @@ The security tool:
    - Login will fail without proper credentials
    - Passw0rd! is the password for Administrator
 6. -x 'whoami /all'
-   - 
+   - tells CME to execute the command remotely
+   - whoami /all is the command being executed
+   - The command outputs certain information about the security context of the logged-in account
 
 Once the command runs, the output should look similar to this:
 ![Picture 1](images/InternshipLab1-Photo1.png)
