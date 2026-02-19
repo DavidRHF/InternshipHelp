@@ -1,7 +1,7 @@
 # Identifying Lateral Movement #
 The following goes through a simple attack that identifies privilages on another device.
 
-### *Step 1: The Attack (From Kali VM)* ###
+## *Step 1: The Attack (From Kali VM)* ##
 Navigate to the Kali VM and run this remote command on the DC:
 
 `crackmapexec smb <DC_IP> -u Administrator -p 'Passw0rd!' -x 'whoami /all'`
@@ -62,7 +62,29 @@ Once the command runs, the output should look similar to this:
 
 
 ### *Step 2: Evidence Investigation (On DC VM)* ###
-Event ID 4624 (Security Log): Successful Network Logon (Type 3). Identify the Source Network
-Address (Kali IP).
-Event ID 4688 (Security Log): Process Creation for whoami.exe .
-Event ID 1 (Sysmon Log): Detailed Process Creation. Locate the CommandLine field to see
+
+#### Where the logs are located ####
+Navigate to Event Viewer:
+Windows Security Log: Windows Logs -> Security
+Sysmon Operational Log: Applications and Services Logs -> Microsoft -> Windows ->
+Sysmon -> Operational
+
+##### Event ID 4624 (Security Log) #####
+
+---
+Used to record
+
+##### Event ID 4688 (Security Log) #####
+
+##### Event ID 1 (Sysmon Log) #####
+
+
+
+
+
+
+
+
+
+
+
