@@ -6,26 +6,29 @@ Navigate to the Kali VM and run this remote command on the DC:
 
 `crackmapexec smb <DC_IP> -u Administrator -p 'Passw0rd!' -x 'whoami /all'`
 
-----------
+---
 
 #### What does this command do when broken down? ####
 
 The security tool:
 1. crackmapexec (CME)
    - Post-exploitation tool commonly used in penetration testing
-   - Legitimate uses:
-      - U
-   - Illegitimate uses
-      - U
+- Legitimate uses:
+   - Checking for weak credentials and password reuse
+   - Red team testing for real attacker simulation
+   - Blue team validation for tool verification and confirming that logging works
+- Illegitimate uses:
+  - Executing malicious payloads
+  - Gaining Domain access
 
-----------
+---
 
 #### Required entries after crackmapexec: ####
 
 2. smb 
-   - Shows the protocol that is being used
+   - Determines the protocol to use
    - Is the Windows file-sharing and remote administration protocol.
-   - 
+   - Typically port 445
 3. <DC_IP>
    - The target DCs IP address
    - In my case, my test DCs IP is 192.168.1.80
