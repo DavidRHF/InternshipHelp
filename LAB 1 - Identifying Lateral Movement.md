@@ -8,7 +8,13 @@ Navigate to the Kali VM and run this remote command on the DC:
 
 #### What does this command mean when broken down? ####
 
-
+1. crackmapexec
+   -
+2. smb
+   -
+3. DC_IP
+   - This would be the target DCs IP address
+   - In my case, my test DCs IP is 
 
 Once the command runs, the output should look similar to this:
 ![Picture 1](images/InternshipLab1-Photo1.png)
