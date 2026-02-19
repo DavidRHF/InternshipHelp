@@ -74,18 +74,21 @@ Sysmon -> Operational
 
 ##### Fields that connect to the event: #####
 
-
 ![Picture 5](images/InternshipLab1-Photo5.png)
 - Indicates network login
+
 
 ![Picture 6](images/InternshipLab1-Photo6.png)
 - Shows what account authenticated
 
+
 ![Picture 7](images/InternshipLab1-Photo7.png)
 - Shows a different IP than the DC
 
+
 ![Picture 8](images/InternshipLab1-Photo8.png)
 - Shows protocol used
+
 
 ---
 
