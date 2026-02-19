@@ -8,10 +8,13 @@ Navigate to the Kali VM and run this remote command on the DC:
 
 #### What does this command mean when broken down? ####
 
+The security tool
 1. crackmapexec
-   -
-2. smb
    - 
+   - Commonly used penetration testing technique
+  
+2. smb
+   -
 3. <DC_IP>
    - The target DCs IP address
    - In my case, my test DCs IP is 192.168.1.80
@@ -24,7 +27,8 @@ Navigate to the Kali VM and run this remote command on the DC:
    - Specifies the password to the targeted account
    - Login will fail without proper credentials
    - Passw0rd! is the password for Administrator
-6. 
+6. -x 'whoami /all'
+   - 
 
 Once the command runs, the output should look similar to this:
 ![Picture 1](images/InternshipLab1-Photo1.png)
