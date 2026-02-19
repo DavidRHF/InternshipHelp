@@ -46,18 +46,10 @@ The security tool:
    - whoami /all is the command being executed
    - The command outputs certain information about the security context of the logged-in account
 
-Once the command runs, the output should look similar to this:
+*Once the command runs, the output should look similar to this:*
 ![Picture 1](images/InternshipLab1-Photo1.png)
 ![Picture 2](images/InternshipLab1-Photo2.png)
 ![Picture 3](images/InternshipLab1-Photo3.png)
-
-
-
-
-
-
-
-
 
 
 
@@ -67,6 +59,10 @@ Once the command runs, the output should look similar to this:
 - Windows Security Log: Windows Logs -> Security
 - Sysmon Operational Log: Applications and Services Logs -> Microsoft -> Windows ->
 Sysmon -> Operational
+
+*An example Event Viewer page with an open Event log should look something like this:*
+![Picture 1](images/InternshipLab1-Photo4.png)
+
 
 #### Event ID 4624 (Security Log) ####
 
@@ -78,7 +74,8 @@ Sysmon -> Operational
 
 ##### Fields that connect to the event: #####
 
-
+![Picture 1](images/InternshipLab1-Photo4.png)
+Indicates network login
 
 ---
 
