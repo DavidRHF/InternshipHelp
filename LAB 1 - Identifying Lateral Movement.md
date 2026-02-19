@@ -6,7 +6,7 @@ Navigate to the Kali VM and run this remote command on the DC:
 
 `crackmapexec smb <DC_IP> -u Administrator -p 'Passw0rd!' -x 'whoami /all'`
 
----
+-----
 
 #### What does this command do when broken down? ####
 
@@ -18,9 +18,9 @@ The security tool:
    - Illegitimate uses
       -
 
----
+-----
 
-Required entries for crackmapexec:
+#### Required entries after crackmapexec: ####
 
 2. smb 
    - Shows the protocol that is being used
