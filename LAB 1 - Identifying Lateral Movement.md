@@ -4,7 +4,7 @@ The following goes through a simple attack that identifies privilages on another
 ### *Step 1: The Attack (From Kali VM)* ###
 Navigate to the Kali VM and run this remote command on the DC:
 
-crackmapexec smb <DC_IP> -u Administrator -p 'Passw0rd!' -x 'whoami /all'
+`crackmapexec smb <DC_IP> -u Administrator -p 'Passw0rd!' -x 'whoami /all'`
 
 #### What does this command mean when broken down? ####
 
