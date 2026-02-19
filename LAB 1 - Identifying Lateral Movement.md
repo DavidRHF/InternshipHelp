@@ -65,17 +65,21 @@ Once the command runs, the output should look similar to this:
 
 ### Where the logs are located ###
 Navigate to Event Viewer:
-Windows Security Log: Windows Logs -> Security
-Sysmon Operational Log: Applications and Services Logs -> Microsoft -> Windows ->
+- Windows Security Log: Windows Logs -> Security
+- Sysmon Operational Log: Applications and Services Logs -> Microsoft -> Windows ->
 Sysmon -> Operational
 
 #### Event ID 4624 (Security Log) ####
 
+*Used to record succesful authentication*
+
+*It records a network logon which is nornmal for smb authentication*
+
 ---
 
 ##### Fields to look out for: #####
-*Used to record succesful authentication*
-*It records a network logon which is nornmal for smb authentication*
+
+
 
 ---
 
