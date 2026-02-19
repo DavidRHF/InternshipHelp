@@ -12,9 +12,10 @@ Navigate to the Kali VM and run this remote command on the DC:
    -
 2. smb
    -
-3. DC_IP
-   - This would be the target DCs IP address
-   - In my case, my test DCs IP is 
+3. <DC_IP>
+   - The target DCs IP address
+   - In my case, my test DCs IP is 192.168.1.80
+   - Important since the command needs a location to target
 
 Once the command runs, the output should look similar to this:
 ![Picture 1](images/InternshipLab1-Photo1.png)
