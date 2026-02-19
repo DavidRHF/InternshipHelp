@@ -8,7 +8,8 @@ Navigate to the Kali VM and run this remote command on the DC:
 
 #### What does this command do when broken down? ####
 
-*
+---
+
 The security tool:
 1. crackmapexec
    - Post-exploitation tool commonly used in penetration testing
@@ -16,7 +17,8 @@ The security tool:
       - U
    - Illegitimate uses
       -
-*
+
+---
 
 Required entries for crackmapexec:
 
