@@ -6,9 +6,9 @@ Navigate to the Kali VM and run this remote command on the DC:
 
 `crackmapexec smb <DC_IP> -u Administrator -p 'Passw0rd!' -x 'whoami /all'`
 
-#### What does this command do when broken down? ####
-
 ---
+
+#### What does this command do when broken down? ####
 
 The security tool:
 1. crackmapexec
