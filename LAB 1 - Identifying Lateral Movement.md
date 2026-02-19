@@ -63,7 +63,7 @@ Once the command runs, the output should look similar to this:
 
 ## *Step 2: Evidence Investigation (On DC VM)* ##
 
-### Where the logs are located in **Event Viewer** ###
+### Where the logs are located in *Event Viewer* ###
 - Windows Security Log: Windows Logs -> Security
 - Sysmon Operational Log: Applications and Services Logs -> Microsoft -> Windows ->
 Sysmon -> Operational
@@ -76,7 +76,7 @@ Sysmon -> Operational
 
 ---
 
-##### Fields to look out for: #####
+##### Fields that connect to the event: #####
 
 
 
