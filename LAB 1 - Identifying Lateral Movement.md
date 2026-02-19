@@ -11,11 +11,20 @@ Navigate to the Kali VM and run this remote command on the DC:
 1. crackmapexec
    -
 2. smb
-   -
+   - 
 3. <DC_IP>
    - The target DCs IP address
    - In my case, my test DCs IP is 192.168.1.80
    - Important since the command needs a location to target
+4. -u Administrator
+   - Specifies the user being targeted
+   - The command needs a specific user to authenticate as
+   - Administrator is the intended user
+5. -p 'Passw0rd!'
+   - Specifies the password to the targeted account
+   - Login will fail without proper credentials
+   - Passw0rd! is the password for Administrator
+6. 
 
 Once the command runs, the output should look similar to this:
 ![Picture 1](images/InternshipLab1-Photo1.png)
