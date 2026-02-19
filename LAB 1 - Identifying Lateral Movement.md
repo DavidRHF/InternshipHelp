@@ -61,7 +61,7 @@ The security tool:
 Sysmon -> Operational
 
 *An example Event Viewer page with an open Event log should look something like this:*
-![Picture 1](images/InternshipLab1-Photo4.png)
+![Picture 4](images/InternshipLab1-Photo4.png)
 
 
 #### Event ID 4624 (Security Log) ####
@@ -74,8 +74,14 @@ Sysmon -> Operational
 
 ##### Fields that connect to the event: #####
 
-![Picture 1](images/InternshipLab1-Photo5.png)
+![Picture 5](images/InternshipLab1-Photo5.png)
 Indicates network login
+
+![Picture 6](images/InternshipLab1-Photo6.png)
+
+![Picture 7](images/InternshipLab1-Photo7.png)
+
+![Picture 8](images/InternshipLab1-Photo8.png)
 
 ---
 
