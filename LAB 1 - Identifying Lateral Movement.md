@@ -74,7 +74,7 @@ Sysmon -> Operational
 
 ##### Fields that connect to the event: #####
 
-![Picture 1](images/InternshipLab1-Photo4.png)
+![Picture 1](images/InternshipLab1-Photo5.png)
 Indicates network login
 
 ---
