@@ -94,14 +94,9 @@ Overall, this command does the following:
    - Then exits
 
 
-
-
-
 *Once the command runs, the output should look similar to this:*
 
-![Picture 2](images/InternshipLab1-Photo2.png)
-![Picture 3](images/InternshipLab1-Photo3.png)
-
+![Picture 2](images/InternshipLab2-Photo2.png)
 
 
 ## *Step 2: Evidence Investigation (On DC VM)* ##
