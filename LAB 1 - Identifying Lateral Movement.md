@@ -119,7 +119,7 @@ Run this:
 
 `auditpol /set /subcategory:"Process Creation" /success:enable /failure:disable`
 
-This should be the result:
+This should be the result and Event 4688 should pop up:
 ![Picture 9](images/InternshipLab1-Photo9.png)
 
 *Event Viewer proof:*
