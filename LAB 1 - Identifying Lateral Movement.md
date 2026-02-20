@@ -76,7 +76,7 @@ Sysmon -> Operational
 
 ![Picture 5](images/InternshipLab1-Photo5.png): Indicates network login
 
-![Picture 6](images/InternshipLab1-Photo6.png): Shows what account authenticated
+![Picture 6](images/InternshipLab1-Photo6.png): Shows what account authenticated the command
 
 ![Picture 7](images/InternshipLab1-Photo7.png)
    - Shows the Kali IP as the source
