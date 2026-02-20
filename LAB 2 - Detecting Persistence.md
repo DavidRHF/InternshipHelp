@@ -169,22 +169,23 @@ Overall, this command does the following:
 
 
 
-#### Process lineage: ####
+### Process lineage: ###
+
+---
+
 |services.exe|
-|---|
 |&darr;|
 |sc.exe|
-|---|
 |&darr;|
 |cmd.exe|
-|---|
 |&darr;|
 |File creation|
-|---|
 
-The evidence for this can be viewed in the previous logs with:
+#### The evidence for this can be viewed in the previous logs with: ####
 ParentImage &rarr; who started it
+
 Image &rarr; the process
+
 ProcessGuid &rarr; relevant links
 
 ---
