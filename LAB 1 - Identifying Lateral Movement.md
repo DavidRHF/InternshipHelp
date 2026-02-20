@@ -140,14 +140,14 @@ This should be the result and Event 4688 should pop up:
 
 |Field|Log Value|Why does this matter?|
 |---|---|---|
-|Logon Type|3|Shows an SMB login|
-|Account Name|Administrator|The account used for identification|
-|Source Network Address|Kali IP (192.168.1.79)|Proves that another system ran the command|
-|Authentication Package|NTLM|Is a remote authentication method|
+|Image|C:\Windows\System32\whoami.exe|Shows the process that was executed|
+|Commandline|whoami /all|The argument used|
+|ParentImage|Typically services.exe or cmd.exe|Shows the process that launched it|
+|User|Administrator|Shows the account that executed the command|
 
 *Event Viewer proof:*
-![Picture 5](images/InternshipLab1-Photo5.png)
-![Picture 6](images/InternshipLab1-Photo6.png)
+![Picture 10](images/InternshipLab1-Photo10.png)
+![Picture 11](images/InternshipLab1-Photo11.png)
 
 ---
 
