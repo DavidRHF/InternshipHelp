@@ -104,10 +104,9 @@ Sysmon -> Operational
 |Token Elevation Type|%%1936|Indicates full token access with no privilages removed|
 
 ### Before Event ID 4688 appears: ###
-
-Windows does not audit all process creations by default
-In our case, Process Creation is not auditing
-Try running this command into an administrative command line prompt
+- Windows does not audit all process creations by default
+- In our case, Process Creation is not auditing
+- Try running this command into an administrative command line prompt
 
 `auditpol /get /category:"Detailed Tracking"`
 
