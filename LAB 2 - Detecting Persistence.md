@@ -101,7 +101,9 @@ Overall, this command does the following:
 ## *Step 2: Evidence Investigation (On DC VM)* ##
 
 *An example Event Viewer page with an open Event log should look something like this:*
+
 *This also shows the IP of the source*
+
 ![Picture 3](images/InternshipLab2-Photo6.png)
 
 
@@ -167,12 +169,22 @@ Overall, this command does the following:
 
 
 
-#### Process lineage table: ####
+#### Process lineage: ####
+|services.exe|
+|---|
+|&darr;|
+|sc.exe|
+|---|
+|&darr;|
+|cmd.exe|
+|---|
+|&darr;|
+|File creation|
+|---|
 
-|Attack Step|Command|Why does this matter?|
-|---|---|---|
-|Remote Authentication|sc create Maintenance||
-|Image|cmd.exe|Shows the process that created it|
-|User|Is typically Administrator or SYSTEM|Shows the account that executed the command|
+The evidence for this can be viewed in the previous logs with:
+ParentImage &rarr; who started it
+Image &rarr; the process
+ProcessGuid &rarr; relevant links
 
 ---
