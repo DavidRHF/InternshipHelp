@@ -174,11 +174,17 @@ Overall, this command does the following:
 ---
 
 services.exe
+
 &darr;
+
 sc.exe
+
 &darr;
+
 cmd.exe
+
 &darr;
+
 File creation
 
 #### The evidence for this can be viewed in the previous logs with: ####
