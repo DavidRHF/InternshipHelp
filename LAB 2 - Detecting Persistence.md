@@ -49,7 +49,8 @@ Overall, this command does the following:
    - offers an interactive SYSTEM shell
 
 *Once the command runs, the output should look similar to this:*
-*It is essential that after running, you are put into the DC terminal*
+
+*It is essential that after running, you are put into the DC shell*
 ![Picture 1](images/InternshipLab2-Photo1.png)
 
 
