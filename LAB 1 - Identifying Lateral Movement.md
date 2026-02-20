@@ -78,8 +78,8 @@ Sysmon -> Operational
 |---|---|---|
 |Logon Type|3|Shows an SMB login|
 |Account Name|Administrator|The account used for identification|
-|Service Type|User mode Service|Is being run as a normal Windows process|
-|Service Start Type|Demand start|Windows was made to start, rather than auto-starting|
+|Source Network Address|Kali IP (192.168.1.79)|Proves that another system ran the command|
+|Authentication Package|NTLM|Is a remote authentication method|
 
 *Event Viewer proof:*
 ![Picture 5](images/InternshipLab1-Photo5.png)
