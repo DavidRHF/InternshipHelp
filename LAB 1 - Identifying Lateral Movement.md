@@ -106,15 +106,20 @@ Sysmon -> Operational
 ### Before Event ID 4688 appears: ###
 - Windows does not audit all process creations by default
 - In our case, Process Creation is not auditing
-- Try running this command into an administrative command line prompt
+
+Try running this command into an administrative command line prompt
 
 `auditpol /get /category:"Detailed Tracking"`
 
-This might be the result:
+This should be the result:
 ![Picture 8](images/InternshipLab1-Photo8.png)
 
+If this is the result of the command, then Windows needs to enable audit Process Creation
+Run this:
 
+`auditpol /set /subcategory:"Process Creation" /success:enable /failure:disable`
 
+This should be the result:
 ![Picture 9](images/InternshipLab1-Photo9.png)
 
 *Event Viewer proof:*
