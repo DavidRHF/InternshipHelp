@@ -6,7 +6,50 @@ Navigate to the Kali VM and run this remote command on the DC:
 
 `impacket-psexec lab.local/Administrator:'Passw0rd!'@<DC_IP>`
 
-When inside the remote shell, run:
+---
+
+#### What does this command do when broken down? ####
+Lets start with the command that opens the shell.
+
+The security tool:
+1. impacket-psexec
+   - Python based use of Microsofts PsExec functions
+   - allows remote command execution and shell access
+- Legitimate uses:
+   - Attacker simulations and compromise scenarios
+   - Executing diagnostic commandss when physical access is unavailable
+- Illegitimate uses:
+  - Remotely executing ransomware or malware
+  - Using persistence to hide malicious code as legitimate services
+
+---
+
+#### Entries after impacket-psexec: ####
+
+2. lab.local
+   - Specifies the targeted Domain name
+   - Required for creating a temporary service inside of the DC
+3. /Administrator
+   - The forward slash connects the user to the domain name
+   - Specifies the user being targeted
+   - The command needs a specific user to authenticate as
+5. :'Passw0rd!'
+   - The colon shows where the username ends and where the password starts
+   - Passw0rd! is the password for Administrator
+   - Login will fail without proper credentials
+6. @<DC_IP>
+   - The @ separates credentials from target
+   - The target DCs IP address
+   - In my case, my test DCs IP is 192.168.1.80
+   - Important since the command needs a location to target
+Overall, this command does the following:
+   - Authenticates over SMB using adequate credentials
+   - creates a temporary service
+   - starts the service
+   - offers an interactive SYSTEM shell
+
+
+When inside the newly created remote shell, run:
 
 `sc create "Maintenance" binPath= "cmd.exe /c echo 'Backdoor' > C:\temp.exe"`
 
@@ -51,6 +94,10 @@ Overall, this command does the following:
    - creates a temporary service
    - starts the service
    - offers an interactive SYSTEM shell
+
+
+
+
 
 *Once the command runs, the output should look similar to this:*
 ![Picture 1](images/InternshipLab1-Photo1.png)
