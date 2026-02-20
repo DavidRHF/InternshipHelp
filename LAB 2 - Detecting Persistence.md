@@ -83,6 +83,7 @@ The security tool:
    - /c tells the DC command prompt to run a command and terminate
    - 'Backdoor' is the text to be written
    - > C:\temp.exe is the file that the text will go into
+
 Overall, this command does the following:
    - Opens the Domain Controller command prompt
    - Writes 'Backdoor' into a temp file
