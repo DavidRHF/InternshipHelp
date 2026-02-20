@@ -30,26 +30,26 @@ The security tool:
 
 #### Entries after impacket-psexec: ####
 
-2. smb 
-   - Determines the protocol to use
-   - Is the Windows file-sharing and remote administration protocol.
-   - Typically port 445
-3. <DC_IP>
-   - The target DCs IP address
-   - In my case, my test DCs IP is 192.168.1.80
-   - Important since the command needs a location to target
-4. -u Administrator
+2. lab.local
+   - Specifies the targeted Domain name
+   - Required for creating a temporary service inside of the DC
+3. /Administrator
    - Specifies the user being targeted
    - The command needs a specific user to authenticate as
    - Administrator is the intended user
-5. -p 'Passw0rd!'
-   - Specifies the password to the targeted account
-   - Login will fail without proper credentials
+4. :'Passw0rd!'
+   - The colon shows where the username ends and where the password starts
    - Passw0rd! is the password for Administrator
-6. -x 'whoami /all'
-   - tells CME to execute the command remotely
-   - whoami /all is the command being executed
-   - The command outputs certain information about the security context of the logged-in account
+   - Login will fail without proper credentials
+5. <DC_IP>
+   - The target DCs IP address
+   - In my case, my test DCs IP is 192.168.1.80
+   - Important since the command needs a location to target
+Overall, this command does the following:
+   - Authenticates over SMB using adequate credentials
+   - creates a temporary service
+   - starts the service
+   - offers an interactive SYSTEM shell
 
 *Once the command runs, the output should look similar to this:*
 ![Picture 1](images/InternshipLab1-Photo1.png)
