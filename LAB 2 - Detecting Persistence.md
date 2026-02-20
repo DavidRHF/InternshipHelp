@@ -48,6 +48,10 @@ Overall, this command does the following:
    - starts the service
    - offers an interactive SYSTEM shell
 
+*Once the command runs, the output should look similar to this:*
+*It is essential that after running, you are put into the DC terminal*
+![Picture 1](images/InternshipLab2-Photo1.png)
+
 
 #### When inside the newly created remote shell, run: ####
 
@@ -94,7 +98,7 @@ Overall, this command does the following:
 
 
 *Once the command runs, the output should look similar to this:*
-![Picture 1](images/InternshipLab1-Photo1.png)
+
 ![Picture 2](images/InternshipLab1-Photo2.png)
 ![Picture 3](images/InternshipLab1-Photo3.png)
 
