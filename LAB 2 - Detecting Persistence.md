@@ -120,7 +120,7 @@ Sysmon -> Operational
 
 #### Fields that connect to the event: ####
 
-|Field|Value|Why does this matter?|
+|Field|Log Value|Why does this matter?|
 |---|---|---|
 |Service Name|Maintenance|Confirms the service was created|
 |Service File Name|cmd.exe /c echo 'Backdoor' > C:\temp.txt|Shows the path being targeted|
@@ -140,7 +140,7 @@ Sysmon -> Operational
 
 #### Fields that connect to the event: ####
 
-|Field|Value|Why does this matter?|
+|Field|Log Value|Why does this matter?|
 |---|---|---|
 |Image|C:\Windows\System32\sc.exe|Confirms that sc was the tool used|
 |CommandLine|Our original sc create command|Shows the exact argument that targeted the DC|
@@ -161,12 +161,23 @@ Sysmon -> Operational
 
 #### Fields that connect to the event: ####
 
-|Field|Value|Why does this matter?|
+|Field|Log Value|Why does this matter?|
 |---|---|---|
 |TargetFileName|C:\temp.txt|Confirms that the file was created|
 |Image|cmd.exe|Shows the process that created it|
 |User|Is typically Administrator or SYSTEM|Shows the account that executed the command|
 
 *Event Viewer proof:*
+
+
+
+
+#### Process lineage table: ####
+
+|Attack Step|Command|Why does this matter?|
+|---|---|---|
+|Remote Authentication|sc create Maintenance||
+|Image|cmd.exe|Shows the process that created it|
+|User|Is typically Administrator or SYSTEM|Shows the account that executed the command|
 
 ---
