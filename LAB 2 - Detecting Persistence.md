@@ -166,8 +166,7 @@ Overall, this command does the following:
 
 *Event Viewer proof:*
 
-
-
+---
 
 ### Process lineage: ###
 
