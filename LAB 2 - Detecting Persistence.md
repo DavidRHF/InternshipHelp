@@ -95,7 +95,7 @@ Overall, this command does the following:
 
 
 *Once the command runs, the output should look similar to this:*
-
+*This also shows the IP of the cource*
 ![Picture 2](images/InternshipLab2-Photo2.png)
 
 
