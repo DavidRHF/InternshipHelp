@@ -114,7 +114,7 @@ Sysmon -> Operational
 
 ---
 
-*Records new service installation*
+*Records SERVICE installation*
 
 *Using sc create and PowerShell*
 
@@ -145,7 +145,28 @@ Sysmon -> Operational
 |Image|C:\Windows\System32\sc.exe|Confirms that sc was the tool used|
 |CommandLine|Our original sc create command|Shows the exact argument that targeted the DC|
 |User|Is typically Administrator or SYSTEM|Shows the account that executed the command|
-|ParentImage|Is typically services.exe or cmd.exe|Shows the |
+|ParentImage|Is typically services.exe or cmd.exe|Shows where it was executed|
+
+*Event Viewer proof:*
+![Picture 4](images/InternshipLab2-Photo4.png)
+![Picture 5](images/InternshipLab2-Photo5.png)
+
+---
+
+### Event ID 11 (Sysmon Log) ###
+
+---
+
+*Records log FILE (not to be confused with service) creation*
+
+#### Fields that connect to the event: ####
+
+|Field|Value|Why does this matter?|
+|---|---|---|
+|Image|C:\Windows\System32\sc.exe|Confirms that sc was the tool used|
+|CommandLine|Our original sc create command|Shows the exact argument that targeted the DC|
+|User|Is typically Administrator or SYSTEM|Shows the account that executed the command|
+|ParentImage|Is typically services.exe or cmd.exe|Shows where it was executed|
 
 *Event Viewer proof:*
 ![Picture 4](images/InternshipLab2-Photo4.png)
