@@ -110,15 +110,19 @@ Sysmon -> Operational
 ![Picture 4](images/InternshipLab1-Photo4.png)
 
 
-### Event ID 4624 (Security Log) ###
+### Event ID 7045 (Security Log) ###
 
-*Used to record succesful authentication*
+*Records new service installation*
 
-*It records a network logon which is normal for smb authentication*
+*Using sc create and PowerShell*
 
 ---
 
-#### ID 4624 fields that connect to the event: ####
+#### ID 7045 fields that connect to the event: ####
+
+##### Key Field Table: #####
+|Field|Meaning|Why does this matter?|
+|---|---|---|
 
 ##### Indicates network login #####
 ![Picture 5](images/InternshipLab1-Photo5.png)
