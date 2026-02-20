@@ -48,9 +48,10 @@ Overall, this command does the following:
    - starts the service
    - offers an interactive SYSTEM shell
 
+*It is essential that after running, you are put into the DC shell*
 *Once the command runs, the output should look similar to this:*
 
-*It is essential that after running, you are put into the DC shell*
+
 ![Picture 1](images/InternshipLab2-Photo1.png)
 
 
