@@ -77,15 +77,16 @@ The security tool:
    - Exists in Windows
 3. binPath=
    - Specifies what file the service will run
-5. "cmd.exe /c echo 'Backdooor'
-   - 
-6. > C:\temp.exe"
-   - 
+5. "cmd.exe 
+   - cmd.exe tells the service to run command prompt
+6. /c echo 'Backdoor'> C:\temp.exe"
+   - /c tells the DC command prompt to run a command and terminate
+   - 'Backdoor' is the text to be written
+   - > C:\temp.exe is the file that the text will go into
 Overall, this command does the following:
-   - Authenticates over SMB using adequate credentials
-   - creates a temporary service
-   - starts the service
-   - offers an interactive SYSTEM shell
+   - Opens the Domain Controller command prompt
+   - Writes 'Backdoor' into a temp file
+   - Then exits
 
 
 
