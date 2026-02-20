@@ -64,27 +64,25 @@ Sysmon -> Operational
 ![Picture 4](images/InternshipLab1-Photo4.png)
 
 
-### Event ID 4624 (Security Log) ###
+### Event ID 4624 (System Log) ###
+
+---
 
 *Used to record succesful authentication*
 
 *It records a network logon which is normal for smb authentication*
 
----
+#### Fields that connect to the event: ####
 
-#### ID 4624 fields that connect to the event: ####
+|Field|Log Value|Why does this matter?|
+|---|---|---|
+|Logon Type|3|Shows an SMB login|
+|Account Name|Administrator|The account used for identification|
+|Service Type|User mode Service|Is being run as a normal Windows process|
+|Service Start Type|Demand start|Windows was made to start, rather than auto-starting|
 
-##### Indicates network login #####
-![Picture 5](images/InternshipLab1-Photo5.png)
-
-##### Shows what account authenticated the command #####
-![Picture 6](images/InternshipLab1-Photo6.png)
-
-##### Shows the Kali IP as the source #####
-![Picture 7](images/InternshipLab1-Photo7.png)
-
-##### Shows protocol used #####
-![Picture 8](images/InternshipLab1-Photo8.png)
+*Event Viewer proof:*
+![Picture 4](images/InternshipLab2-Photo3.png)
 
 ---
 
