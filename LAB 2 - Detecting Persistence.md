@@ -49,46 +49,38 @@ Overall, this command does the following:
    - offers an interactive SYSTEM shell
 
 
-When inside the newly created remote shell, run:
+#### When inside the newly created remote shell, run: ####
 
 `sc create "Maintenance" binPath= "cmd.exe /c echo 'Backdoor' > C:\temp.exe"`
 
 ---
 
 #### What does this command do when broken down? ####
-Lets start with the command that opens the shell.
 
 The security tool:
-1. impacket-psexec
-   - Python based use of Microsofts PsExec functions
-   - allows remote command execution and shell access
+1. sc
+   - Stands for Service Control utility
+   - Used for creating, deleting, starting, and stopping services
 - Legitimate uses:
-   - Attacker simulations and compromise scenarios
-   - Executing diagnostic commandss when physical access is unavailable
+   - Installing and managing services
+   - Configuring background applications
 - Illegitimate uses:
-  - Remotely executing ransomware or malware
-  - Using persistence to hide malicious code as legitimate services
+  - Setting up backdoor services
+  - Attempts at escalating service privilege
 
 ---
 
-#### Entries after impacket-psexec: ####
+#### Entries after sc: ####
 
-2. lab.local
-   - Specifies the targeted Domain name
-   - Required for creating a temporary service inside of the DC
-3. /Administrator
-   - The forward slash connects the user to the domain name
-   - Specifies the user being targeted
-   - The command needs a specific user to authenticate as
-5. :'Passw0rd!'
-   - The colon shows where the username ends and where the password starts
-   - Passw0rd! is the password for Administrator
-   - Login will fail without proper credentials
-6. @<DC_IP>
-   - The @ separates credentials from target
-   - The target DCs IP address
-   - In my case, my test DCs IP is 192.168.1.80
-   - Important since the command needs a location to target
+2. create "Maintenance"
+   - Creates a decoy service named Maintenance
+   - Exists in Windows
+3. binPath=
+   - Specifies what file the service will run
+5. "cmd.exe /c echo 'Backdooor'
+   - 
+6. > C:\temp.exe"
+   - 
 Overall, this command does the following:
    - Authenticates over SMB using adequate credentials
    - creates a temporary service
