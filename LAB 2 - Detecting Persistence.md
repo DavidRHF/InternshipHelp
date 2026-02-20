@@ -157,7 +157,7 @@ Sysmon -> Operational
 
 ---
 
-*Records log FILE (not to be confused with service) creation*
+*Records log FILE creation (not to be confused with service)*
 
 #### Fields that connect to the event: ####
 
