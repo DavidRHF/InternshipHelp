@@ -120,7 +120,7 @@ Sysmon -> Operational
 
 #### Fields that connect to the event: ####
 
-|Field|What to look for|Why does this matter?|
+|Field|Value|Why does this matter?|
 |---|---|---|
 |Service Name|Maintenance|Confirms the service was created|
 |Service File Name|cmd.exe /c echo 'Backdoor' > C:\temp.txt|Shows the path being targeted|
@@ -136,16 +136,14 @@ Sysmon -> Operational
 
 ---
 
-**
-
-*Using sc create and PowerShell*
+*Records detailed process creation information*
 
 #### Fields that connect to the event: ####
 
-|Field|What to look for|Why does this matter?|
+|Field|Value|Why does this matter?|
 |---|---|---|
-|Service Name|Maintenance|Confirms the service was created|
-|Service File Name|cmd.exe /c echo 'Backdoor' > C:\temp.txt|Shows the path being targeted|
+|Image|C:\Windows\System32\sc.exe|Confirms that sc was the tool used|
+|CommandLine|cmd.exe /c echo 'Backdoor' > C:\temp.txt|Shows the path being targeted|
 |Service Type|User mode Service|Is being run as a normal Windows process|
 |Service Start Type|Demand start|Windows was made to start, rather than auto-starting|
 
