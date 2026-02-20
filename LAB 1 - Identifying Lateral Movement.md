@@ -105,12 +105,12 @@ Sysmon -> Operational
 
 ### Before Event ID 4688 appears: ###
 
-![Picture 6](images/InternshipLab1-Photo7.png)
-![Picture 6](images/InternshipLab1-Photo8.png)
+![Picture 7](images/InternshipLab1-Photo7.png)
+![Picture 8](images/InternshipLab1-Photo8.png)
 
 *Event Viewer proof:*
 
-![Picture 6](images/InternshipLab1-Photo9.png)
+![Picture 9](images/InternshipLab1-Photo9.png)
 
 ---
 
