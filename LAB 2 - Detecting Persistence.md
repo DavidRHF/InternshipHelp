@@ -4,31 +4,31 @@ The following goes through an attack process of creating a system service that a
 ## *Step 1: The Attack (From Kali VM)* ##
 Navigate to the Kali VM and run this remote command on the DC:
 
-`mpacket-psexec lab.local/Administrator:'Passw0rd!'@<DC_IP>`
+`impacket-psexec lab.local/Administrator:'Passw0rd!'@<DC_IP>`
 
 When inside the remote shell, run:
 
 `sc create "Maintenance" binPath= "cmd.exe /c echo 'Backdoor' > C:\temp.exe"`
 
-
 ---
 
 #### What does this command do when broken down? ####
+Lets start with the command that opens the shell.
 
 The security tool:
-1. crackmapexec (CME)
-   - Post-exploitation tool commonly used in penetration testing
+1. impacket-psexec
+   - Python based use of Microsofts PsExec functions
+   - allows remote command execution and shell access
 - Legitimate uses:
-   - Checking for weak credentials and password reuse
-   - Red team testing for real attacker simulation
-   - Blue team validation for tool verification and confirming that logging works
+   - Attacker simulations and compromise scenarios
+   - Executing diagnostic commandss when physical access is unavailable
 - Illegitimate uses:
-  - Executing malicious payloads
-  - Gaining Domain access
+  - Remotely executing ransomware or malware
+  - Using persistence to hide malicious code as legitimate services
 
 ---
 
-#### Required entries after crackmapexec: ####
+#### Entries after impacket-psexec: ####
 
 2. smb 
    - Determines the protocol to use
