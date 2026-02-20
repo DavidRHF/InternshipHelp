@@ -147,7 +147,6 @@ This should be the result and Event 4688 should pop up:
 
 *Event Viewer proof:*
 ![Picture 10](images/InternshipLab1-Photo10.png)
-![Picture 11](images/InternshipLab1-Photo11.png)
 
 ---
 
