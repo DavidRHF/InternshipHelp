@@ -95,19 +95,14 @@ Overall, this command does the following:
 
 
 *Once the command runs, the output should look similar to this:*
-*This also shows the IP of the cource*
 ![Picture 2](images/InternshipLab2-Photo2.png)
 
 
 ## *Step 2: Evidence Investigation (On DC VM)* ##
 
-### Where the logs are located in *Event Viewer* ###
-- Windows Security Log: Windows Logs -> Security
-- Sysmon Operational Log: Applications and Services Logs -> Microsoft -> Windows ->
-Sysmon -> Operational
-
 *An example Event Viewer page with an open Event log should look something like this:*
-![Picture 3](images/InternshipLab1-Photo4.png)
+*This also shows the IP of the source*
+![Picture 3](images/InternshipLab2-Photo6.png)
 
 
 ### Event ID 7045 (System Log) ###
