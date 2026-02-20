@@ -125,7 +125,8 @@ Sysmon -> Operational
 |---|---|---|
 |Service Name|Maintenance|Confirms the service was created|
 |Service File Name|cmd.exe /c echo 'Backdoor' > C:\temp.txt|Shows the path being targeted|
-|Service Type|User mode Service|Normal service type
+|Service Type|User mode Service|Normal service type|
+|Service Start Type|Demand start|Windows was made to start, rather than auto-starting|
 
 *Event Viewer proof:*
 ![Picture 4](images/InternshipLab2-Photo3.png)
