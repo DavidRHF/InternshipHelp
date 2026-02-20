@@ -130,25 +130,24 @@ This should be the result and Event 4688 should pop up:
 
 #### Event ID 1 (Sysmon Log) ####
 
+---
+
 *Records detailed process creation information*
 
 *Somewhat of an extension of 4688*
 
----
+#### Fields that connect to the event: ####
 
-#### ID 1 fields that connect to the event: ####
+|Field|Log Value|Why does this matter?|
+|---|---|---|
+|Logon Type|3|Shows an SMB login|
+|Account Name|Administrator|The account used for identification|
+|Source Network Address|Kali IP (192.168.1.79)|Proves that another system ran the command|
+|Authentication Package|NTLM|Is a remote authentication method|
 
-##### Indicates network login #####
+*Event Viewer proof:*
 ![Picture 5](images/InternshipLab1-Photo5.png)
-
-##### Shows what account authenticated the command #####
 ![Picture 6](images/InternshipLab1-Photo6.png)
-
-##### Shows the Kali IP as the source #####
-![Picture 7](images/InternshipLab1-Photo7.png)
-
-##### Shows protocol used #####
-![Picture 8](images/InternshipLab1-Photo8.png)
 
 ---
 
