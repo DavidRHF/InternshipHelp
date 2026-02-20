@@ -107,34 +107,28 @@ Overall, this command does the following:
 Sysmon -> Operational
 
 *An example Event Viewer page with an open Event log should look something like this:*
-![Picture 4](images/InternshipLab1-Photo4.png)
+![Picture 3](images/InternshipLab1-Photo4.png)
 
 
 ### Event ID 7045 (Security Log) ###
+
+---
 
 *Records new service installation*
 
 *Using sc create and PowerShell*
 
----
-
-#### ID 7045 fields that connect to the event: ####
+#### Fields that connect to the event: ####
 
 ##### Key Field Table: #####
-|Field|Meaning|Why does this matter?|
+|Field|What to look for|Why does this matter?|
 |---|---|---|
+|Service Name|Maintenance|Confirms the service was created|
+|Service File Name|cmd.exe /c echo 'Backdoor' > C:\temp.txt|Shows the path being targeted|
+|Service Type|User mode Service|Normal service type
 
-##### Indicates network login #####
-![Picture 5](images/InternshipLab1-Photo5.png)
-
-##### Shows what account authenticated the command #####
-![Picture 6](images/InternshipLab1-Photo6.png)
-
-##### Shows the Kali IP as the source #####
-![Picture 7](images/InternshipLab1-Photo7.png)
-
-##### Shows protocol used #####
-![Picture 8](images/InternshipLab1-Photo8.png)
+*Event Viewer proof:*
+![Picture 4](images/InternshipLab2-Photo3.png)
 
 ---
 
