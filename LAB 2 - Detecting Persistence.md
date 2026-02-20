@@ -143,9 +143,9 @@ Sysmon -> Operational
 |Field|Value|Why does this matter?|
 |---|---|---|
 |Image|C:\Windows\System32\sc.exe|Confirms that sc was the tool used|
-|CommandLine|cmd.exe /c echo 'Backdoor' > C:\temp.txt|Shows the path being targeted|
-|Service Type|User mode Service|Is being run as a normal Windows process|
-|Service Start Type|Demand start|Windows was made to start, rather than auto-starting|
+|CommandLine|Our original sc create command|Shows the exact argument that targeted the DC|
+|User|Is typically Administrator or SYSTEM|Shows the account that executed the command|
+|ParentImage|Is typically services.exe or cmd.exe|Shows the |
 
 *Event Viewer proof:*
 ![Picture 4](images/InternshipLab2-Photo4.png)
