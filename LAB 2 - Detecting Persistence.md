@@ -110,7 +110,7 @@ Sysmon -> Operational
 ![Picture 3](images/InternshipLab1-Photo4.png)
 
 
-### Event ID 7045 (Security Log) ###
+### Event ID 7045 (System Log) ###
 
 ---
 
@@ -120,7 +120,6 @@ Sysmon -> Operational
 
 #### Fields that connect to the event: ####
 
-##### Key Field Table: #####
 |Field|What to look for|Why does this matter?|
 |---|---|---|
 |Service Name|Maintenance|Confirms the service was created|
@@ -133,50 +132,24 @@ Sysmon -> Operational
 
 ---
 
-### Event ID 4688 (Security Log) ###
-
-*Records the creation of whoami.exe*
-
-*Creation occurs under the authenticated session*
+### Event ID 1 (Sysmon Log) ###
 
 ---
 
-#### ID 4688 fields that connect to the event: ####
+*Records new service installation*
 
-##### Indicates network login #####
-![Picture 5](images/InternshipLab1-Photo5.png)
+*Using sc create and PowerShell*
 
-##### Shows what account authenticated the command #####
-![Picture 6](images/InternshipLab1-Photo6.png)
+#### Fields that connect to the event: ####
 
-##### Shows the Kali IP as the source #####
-![Picture 7](images/InternshipLab1-Photo7.png)
+|Field|What to look for|Why does this matter?|
+|---|---|---|
+|Service Name|Maintenance|Confirms the service was created|
+|Service File Name|cmd.exe /c echo 'Backdoor' > C:\temp.txt|Shows the path being targeted|
+|Service Type|User mode Service|Is being run as a normal Windows process|
+|Service Start Type|Demand start|Windows was made to start, rather than auto-starting|
 
-##### Shows protocol used #####
-![Picture 8](images/InternshipLab1-Photo8.png)
-
----
-
-#### Event ID 1 (Sysmon Log) ####
-
-*Records detailed process creation information*
-
-*Somewhat of an extension of 4688*
-
----
-
-#### ID 1 fields that connect to the event: ####
-
-##### Indicates network login #####
-![Picture 5](images/InternshipLab1-Photo5.png)
-
-##### Shows what account authenticated the command #####
-![Picture 6](images/InternshipLab1-Photo6.png)
-
-##### Shows the Kali IP as the source #####
-![Picture 7](images/InternshipLab1-Photo7.png)
-
-##### Shows protocol used #####
-![Picture 8](images/InternshipLab1-Photo8.png)
+*Event Viewer proof:*
+![Picture 4](images/InternshipLab2-Photo3.png)
 
 ---
