@@ -64,7 +64,7 @@ Sysmon -> Operational
 ![Picture 4](images/InternshipLab1-Photo4.png)
 
 
-#### Event ID 4624 (Security Log) ####
+### Event ID 4624 (Security Log) ###
 
 *Used to record succesful authentication*
 
@@ -72,7 +72,7 @@ Sysmon -> Operational
 
 ---
 
-### Fields that connect to the event: ###
+#### ID 4624 fields that connect to the event: ####
 
 ##### Indicates network login #####
 ![Picture 5](images/InternshipLab1-Photo5.png)
@@ -88,12 +88,53 @@ Sysmon -> Operational
 
 ---
 
-#### Event ID 4688 (Security Log) ####
+### Event ID 4688 (Security Log) ###
+
+*Records the creation of whoami.exe*
+
+*Creation occurs under the authenticated session*
+
+---
+
+#### ID 4688 fields that connect to the event: ####
+
+##### Indicates network login #####
+![Picture 5](images/InternshipLab1-Photo5.png)
+
+##### Shows what account authenticated the command #####
+![Picture 6](images/InternshipLab1-Photo6.png)
+
+##### Shows the Kali IP as the source #####
+![Picture 7](images/InternshipLab1-Photo7.png)
+
+##### Shows protocol used #####
+![Picture 8](images/InternshipLab1-Photo8.png)
+
+---
 
 #### Event ID 1 (Sysmon Log) ####
 
+*Records detailed process creation information*
 
+*Somewhat of an extension of 4688*
 
+---
+
+#### ID 1 fields that connect to the event: ####
+
+##### Indicates network login #####
+![Picture 5](images/InternshipLab1-Photo5.png)
+
+##### Shows what account authenticated the command #####
+![Picture 6](images/InternshipLab1-Photo6.png)
+
+##### Shows the Kali IP as the source #####
+![Picture 7](images/InternshipLab1-Photo7.png)
+
+##### Shows protocol used #####
+![Picture 8](images/InternshipLab1-Photo8.png)
+
+---
 
 
 
