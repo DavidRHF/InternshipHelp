@@ -150,7 +150,7 @@ Sysmon -> Operational
 |Service Start Type|Demand start|Windows was made to start, rather than auto-starting|
 
 *Event Viewer proof:*
+![Picture 4](images/InternshipLab2-Photo4.png)
 ![Picture 5](images/InternshipLab2-Photo5.png)
-![Picture 6](images/InternshipLab2-Photo6.png)
 
 ---
