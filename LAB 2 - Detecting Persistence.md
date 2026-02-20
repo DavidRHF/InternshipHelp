@@ -136,7 +136,7 @@ Sysmon -> Operational
 
 ---
 
-*Records new service installation*
+**
 
 *Using sc create and PowerShell*
 
