@@ -34,14 +34,15 @@ The security tool:
    - Specifies the targeted Domain name
    - Required for creating a temporary service inside of the DC
 3. /Administrator
+   - The forward slash connects the user to the domain name
    - Specifies the user being targeted
    - The command needs a specific user to authenticate as
-   - Administrator is the intended user
-4. :'Passw0rd!'
+5. :'Passw0rd!'
    - The colon shows where the username ends and where the password starts
    - Passw0rd! is the password for Administrator
    - Login will fail without proper credentials
-5. <DC_IP>
+6. @<DC_IP>
+   - The @ separates credentials from target
    - The target DCs IP address
    - In my case, my test DCs IP is 192.168.1.80
    - Important since the command needs a location to target
