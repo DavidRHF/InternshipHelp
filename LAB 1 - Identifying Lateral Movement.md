@@ -23,7 +23,7 @@ The security tool:
 
 ---
 
-#### Required entries after crackmapexec: ####
+#### Entries after crackmapexec: ####
 
 2. smb 
    - Determines the protocol to use
