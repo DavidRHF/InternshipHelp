@@ -74,14 +74,17 @@ Sysmon -> Operational
 
 ##### Fields that connect to the event: #####
 
-![Picture 5](images/InternshipLab1-Photo5.png): Indicates network login
+Indicates network login
+![Picture 5](images/InternshipLab1-Photo5.png)
 
-![Picture 6](images/InternshipLab1-Photo6.png): Shows what account authenticated the command
+Shows what account authenticated the command
+![Picture 6](images/InternshipLab1-Photo6.png)
 
+Shows the Kali IP as the source
 ![Picture 7](images/InternshipLab1-Photo7.png)
-   - Shows the Kali IP as the source
 
-![Picture 8](images/InternshipLab1-Photo8.png): Shows protocol used
+Shows protocol used
+![Picture 8](images/InternshipLab1-Photo8.png)
 
 ---
 
