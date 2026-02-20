@@ -187,7 +187,8 @@ cmd.exe
 
 File creation
 
-#### The evidence for this can be viewed in the previous logs with: ####
+
+#### The evidence for this can be viewed in the previous logs: ####
 **ParentImage** &rarr; who started it
 
 **Image** &rarr; the process
