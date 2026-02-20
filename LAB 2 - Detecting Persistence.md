@@ -163,13 +163,10 @@ Sysmon -> Operational
 
 |Field|Value|Why does this matter?|
 |---|---|---|
-|Image|C:\Windows\System32\sc.exe|Confirms that sc was the tool used|
-|CommandLine|Our original sc create command|Shows the exact argument that targeted the DC|
+|TargetFileName|C:\temp.txt|Confirms that the file was created|
+|Image|cmd.exe|Shows the process that created it|
 |User|Is typically Administrator or SYSTEM|Shows the account that executed the command|
-|ParentImage|Is typically services.exe or cmd.exe|Shows where it was executed|
 
 *Event Viewer proof:*
-![Picture 4](images/InternshipLab2-Photo4.png)
-![Picture 5](images/InternshipLab2-Photo5.png)
 
 ---
