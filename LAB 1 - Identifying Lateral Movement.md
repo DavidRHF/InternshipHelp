@@ -108,7 +108,9 @@ Sysmon -> Operational
 Windows does not audit all process creations by default
 In our case, Process Creation is not auditing
 Try running this command into an administrative command line prompt
+
 `auditpol /get /category:"Detailed Tracking"`
+
 This might be the result:
 ![Picture 8](images/InternshipLab1-Photo8.png)
 
