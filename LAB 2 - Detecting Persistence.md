@@ -174,6 +174,7 @@ Overall, this command does the following:
 ---
 
 |services.exe|
+|---|
 |&darr;|
 |sc.exe|
 |&darr;|
@@ -182,10 +183,10 @@ Overall, this command does the following:
 |File creation|
 
 #### The evidence for this can be viewed in the previous logs with: ####
-ParentImage &rarr; who started it
+**ParentImage** &rarr; who started it
 
-Image &rarr; the process
+**Image** &rarr; the process
 
-ProcessGuid &rarr; relevant links
+**ProcessGuid** &rarr; relevant links
 
 ---
