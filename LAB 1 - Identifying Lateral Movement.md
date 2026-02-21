@@ -150,10 +150,26 @@ This should be the result and Event 4688 should pop up:
 
 ---
 
+### Process lineage: ###
+
+---
+
+services.exe
+
+&darr;
+
+cmd.exe
+
+&darr;
+
+whoami.exe
 
 
+#### The evidence for this can be viewed in the previous logs: ####
+**ParentImage** &rarr; who started it
 
+**Image** &rarr; the process
 
+**ProcessGuid** &rarr; relevant links
 
-
-
+---
