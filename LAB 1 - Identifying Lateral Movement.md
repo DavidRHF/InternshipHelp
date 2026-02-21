@@ -110,7 +110,8 @@ Sysmon -> Operational
 Try running this command into an administrative command line prompt
 
 `auditpol /get /category:"Detailed Tracking"`
-This should be the result:
+
+- This should be the result:
 
 ![Picture 8](images/InternshipLab1-Photo8.png)
 
@@ -119,7 +120,7 @@ Run this:
 
 `auditpol /set /subcategory:"Process Creation" /success:enable /failure:disable`
 
-This should be the result and Event 4688 should pop up:
+- This should be the result and Event 4688 should pop up:
 
 ![Picture 9](images/InternshipLab1-Photo9.png)
 
