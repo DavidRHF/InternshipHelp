@@ -110,7 +110,6 @@ Sysmon -> Operational
 Try running this command into an administrative command line prompt
 
 `auditpol /get /category:"Detailed Tracking"`
-
 This should be the result:
 
 ![Picture 8](images/InternshipLab1-Photo8.png)
