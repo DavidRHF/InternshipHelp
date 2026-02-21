@@ -23,3 +23,19 @@ Navigate to the Kali VM and run the commands seen in Lab 1 and Lab 2:
 #### Inside shell, run: ####
 
 `sc create "Maintenance" binPath= "cmd.exe /c echo 'Backdoor' > C:\temp.exe"`
+
+## *Step 2 Task A: The Investigation: Checking for High-Level Alerts* ##
+
+Lets set up our filters to find our alerts: 
+- Navigate to Security Onion
+- Left sidebar &rarr; Alerts
+- Options &rarr; Enable advanced interface features
+- Filter to:
+    - `event_data.host.name: "DC VM Name"`
+    - Mine in this case is 
+
+
+
+
+
+
