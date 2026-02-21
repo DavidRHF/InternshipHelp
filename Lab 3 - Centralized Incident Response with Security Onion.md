@@ -32,7 +32,8 @@ Lets set up our filters to find our alerts:
 - Options &rarr; Enable advanced interface features
 - Filter to:
     - `event_data.host.name: "DC VM Name"`
-    - Mine in this case is 
+    - Mine in this case is dc-hazalldr22
+- 
 
 
 
