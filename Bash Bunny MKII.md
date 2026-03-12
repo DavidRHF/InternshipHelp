@@ -14,9 +14,9 @@ explains everything needed to understand its use and output
 how to detect it
 
 ## Possible Prevention Options ##
----
 *There are multiple prevention techniques but it's important to remember that there is no perfect defense. Due to the way Bash Bunny MKII operates, many concrete defenses feature USB restrictions, policy, and endpoint protection.*
 
+---
 #### Disable or restrict unused ports ####
 - Disable USB ports in BIOS/UEFI
 - Use Group Policy or endpoint security tools to block unauthorized USB devices
