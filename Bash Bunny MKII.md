@@ -28,9 +28,15 @@ how to detect it
 - Use endpoint security tools for detecting strange keystroke activity
 
 
-#### 
+#### Network Adapter Monitoring ####
+(Bash Bunny can emulate a USB Ethernet adapter and route traffic through itself)
+- Monitor unusual DHCP or network interface changes
+- Block automatic installation of new network adapters
 
 
+#### Physical Security & User Training ####
+- Teach users to avoid plugging in unknown USB drives
+- Lock screens when leaving a workstation
 ---
 
 
