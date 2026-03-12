@@ -1,4 +1,5 @@
 # Bash Bunny MKII #
+** This device tricks computers by emulating a variety of USB devices such as keyboards, network adapters and storage drives. 
 
 
 
