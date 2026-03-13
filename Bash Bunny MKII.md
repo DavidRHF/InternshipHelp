@@ -22,7 +22,7 @@ Removable Disks:
 - Deny execute access
 - Deny write access
 
-
+this is important since it will
 
 
 
