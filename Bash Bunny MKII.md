@@ -7,7 +7,7 @@ how to use it
 
 ![Picture 1](images/BashBunnyMKII-Photo1.png)
 
-
+![Picture 2](images/BashBunnyMKII-Photo2.png)
 
 
 
