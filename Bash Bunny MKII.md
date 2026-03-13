@@ -3,7 +3,7 @@
 
 
 
-how to use it
+## Steps to using Bash Bunny MKII correctly ##
 
 ![Picture 1](images/BashBunnyMKII-Photo1.png)
 
