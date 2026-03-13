@@ -11,6 +11,23 @@ how to use it
 
 
 
+Must disable in removable storage access.
+Make sure group policy editor is installed on your computer
+
+- Win + r
+- gpedit.msc
+- Make sure it is installed
+
+Removable Disks: 
+- Deny execute access
+- Deny write access
+
+
+
+
+
+
+
 how to interpret its output
 
 explains everything needed to understand its use and output
