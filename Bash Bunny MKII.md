@@ -18,14 +18,17 @@ Insert the MicroSD card into your device for the download. Dowload the latest fi
 - Once downloaded from the site, move it into the MicroSD card from your file browser.
 - When done transferring into the file, extract the MicroSD card from your file system (For safety).
 - Remove the MicroSD card from your device.
+
+  *The file should look something like this in your MicroSD
+  ![Picture 1](images/BashBunnyMKII-Photo1.png)
+
 - Insert the MicroSD into the Bash Bunny MKII
-- 
 
 
 
 
 
-![Picture 1](images/BashBunnyMKII-Photo1.png)
+
 
 ![Picture 2](images/BashBunnyMKII-Photo2.png)
 
