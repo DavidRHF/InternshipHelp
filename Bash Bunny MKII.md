@@ -38,9 +38,9 @@ Dowload the latest firmware from this page:
 |Red|Recovery mode or firmware flashing|Do NOT unplug|
 |Red/Blue alternating|Recovery mode or firmware flashing|Do NOT unplug|
 
+Once the LED indicates the download was succesful, your Bash Bunny MKII should contain these files:
 
-
-
+*Payload should not be present, we'll get into that soon*
 ![Picture 2](images/BashBunnyMKII-Photo2.png)
 
 
