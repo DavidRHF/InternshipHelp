@@ -13,8 +13,8 @@ We need 2 specific pieces of hardware for this:
 - Bash Bunny MKII
 - MicroSD card
 
-Insert the MicroSD card into your device for the download. Dowload the latest firmware from this page.
-
+Insert the MicroSD card into your device for the download. 
+Dowload the latest firmware from this page:
 [Bash Bunny MKII Firmware](https://downloads.hak5.org/bunny/mk2)
 
 - Once downloaded from the site, move it into the MicroSD card from your file browser.
