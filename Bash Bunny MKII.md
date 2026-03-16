@@ -1,6 +1,8 @@
 # Bash Bunny MKII #
 *This device tricks computers by emulating a variety of USB devices such as keyboards, network adapters and storage drives. By deploying pre-written payloads in an insertable MicroSD chip, specific tasks can be forced onto another device. These payloads can trick computers into installing backdoors, network attacks and exfiltrating documents.*
 
+If anybody gets confused, the link to the official Bash Bunny help page is right here:
+[Bash Bunny Help](https://docs.hak5.org/bash-bunny/bash-bunny-by-hak5/)
 
 
 ## Steps to setting up the Bash Bunny MKII correctly ##
@@ -23,6 +25,10 @@ Insert the MicroSD card into your device for the download. Dowload the latest fi
 ![Picture 1](images/BashBunnyMKII-Photo1.png)
 
 - Insert the MicroSD into the Bash Bunny MKII
+- Insert the Bash Bunny MKII into the device
+- Wait for the files to download onto the Bash Bunny
+  - This could take some time. 2-5 minutes
+  - The dowload is indicated 
 
 
 
