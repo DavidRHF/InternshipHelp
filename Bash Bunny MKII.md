@@ -7,12 +7,23 @@
 
 *Before looking into and executing attacks, we need to download the latest firmware onto the Bash Bunny. Thankfully, these steps are super simple.*
 
-We need 2 specific things for this:
+We need 2 specific pieces of hardware for this:
 - Bash Bunny MKII
 - MicroSD card
 
 Insert the MicroSD card into your device for the download. Dowload the latest firmware from this page.
+
 [Bash Bunny MKII Firmware](https://downloads.hak5.org/bunny/mk2)
+
+- Once downloaded from the site, move it into the MicroSD card from your file browser.
+- When done transferring into the file, extract the MicroSD card from your file system (For safety).
+- Remove the MicroSD card from your device.
+- Insert the MicroSD into the Bash Bunny MKII
+- 
+
+
+
+
 
 ![Picture 1](images/BashBunnyMKII-Photo1.png)
 
