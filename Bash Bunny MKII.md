@@ -29,7 +29,7 @@ Dowload the latest firmware from this page:
 - Insert the Bash Bunny MKII into the device
 - Wait for the files to download onto the Bash Bunny
   - This could take some time. 2-5 minutes
-  - The dowload is indicated 
+  - The download is indicated 
 
 
 
