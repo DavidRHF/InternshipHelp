@@ -29,10 +29,14 @@ Dowload the latest firmware from this page:
 - Insert the Bash Bunny MKII into the device
 - Wait for the files to download onto the Bash Bunny
   - This could take some time. 2-5 minutes
-  - The download is indicated 
+  - The download is indicated by the LED lights on the device
 
-
-
+|LED|Meaning|Should I unplug?|
+|---|---|---|
+|Green|Booting up|Safe to unplug|
+|Blue|Arming mode|Safe to unplug|
+|Red|Recovery mode or firmware flashing|Do NOT unplug|
+|Red/Blue alternating|Recovery mode or firmware flashing|Do NOT unplug|
 
 
 
