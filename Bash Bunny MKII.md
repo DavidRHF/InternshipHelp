@@ -3,7 +3,16 @@
 
 
 
-## Steps to using Bash Bunny MKII correctly ##
+## Steps to setting up the Bash Bunny MKII correctly ##
+
+*Before looking into and executing attacks, we need to download the latest firmware onto the Bash Bunny. Thankfully, these steps are super simple.*
+
+We need 2 specific things for this:
+- Bash Bunny MKII
+- MicroSD card
+
+Insert the MicroSD card into your device for the download. Dowload the latest firmware from this page.
+[Bash Bunny MKII Firmware](https://downloads.hak5.org/bunny/mk2)
 
 ![Picture 1](images/BashBunnyMKII-Photo1.png)
 
