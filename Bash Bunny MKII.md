@@ -45,6 +45,12 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 
 
 
+## Precautions before testing: ##
+
+*The target device will most likely have defenses against unknown USBs, so the attack may not run.*
+
+To avoid this we will check permissions.
+
 Must disable in removable storage access.
 Make sure group policy editor is installed on your computer
 
