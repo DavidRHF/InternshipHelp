@@ -55,14 +55,22 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 
 
 ### Second Attack: Powershell ###
+*It's important to understand what each command does, so we'll walk through the purpose of each line*
 
 `ATTACKMODE HID`
+- Acts as a USB Keyboard
+- tricks the debvice into giving access to the Bash Bunny
 
 `LED B SLOW`
-
+- Makes the LED on the Bash Bunny blink blue slowly
+- Important for understanding if it's running or not
+  
 `QUACK DELAY 1000`
+- Waits 1000 milliseconds (1 second)
+- Gives the computer time to recognize the device
 
 `RUN WIN powershell.exe`
+
 
 `QUACK DELAY 10000`
 
