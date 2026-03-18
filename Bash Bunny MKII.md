@@ -40,10 +40,29 @@ Dowload the latest firmware from this page:
 
 Once the LED indicates the download was succesful, your Bash Bunny MKII should contain these files:
 
-*Payload should not be present, we'll get into that soon*
+*Payload should not be present just yet, we'll get into that soon*
 ![Picture 2](images/BashBunnyMKII-Photo2.png)
 
 
+
+
+## Practice attacks ##
+
+*We will be going over 2 extremely simple attacks to start you off*
+*More complicated attacks can be found through the Hak5 website*
+
+### First Attack: Notepad ###
+
+
+### Second Attack: Powershell ###
+
+`ATTACKMODE HID
+LED B SLOW
+QUACK DELAY 1000
+RUN WIN powershell.exe
+QUACK DELAY 10000
+QUACK STRING Goodbye
+QUACK DELAY 500`
 
 ## Precautions before testing: ##
 
