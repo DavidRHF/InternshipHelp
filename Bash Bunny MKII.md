@@ -57,11 +57,17 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 ### Second Attack: Powershell ###
 
 `ATTACKMODE HID`
+
 `LED B SLOW`
+
 `QUACK DELAY 1000`
+
 `RUN WIN powershell.exe`
+
 `QUACK DELAY 10000`
+
 `QUACK STRING Goodbye`
+
 `QUACK DELAY 500`
 
 ## Precautions before testing: ##
