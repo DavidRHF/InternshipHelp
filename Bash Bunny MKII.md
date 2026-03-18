@@ -70,13 +70,23 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 - Gives the computer time to recognize the device
 
 `RUN WIN powershell.exe`
-
+- This simulates pressing the windows key
+- Then types and runs powershell
 
 `QUACK DELAY 10000`
+- Waits another 10000 milliseconds (10 seconds)
+- Important to give powershell time to boot
+- 10000 may be too long, so find a range from 5000-10000
 
 `QUACK STRING Goodbye`
+- Types the word Goodbye into the powershell window
 
 `QUACK DELAY 500`
+- Here for any commands you would put after
+
+In this case, nothing important is run on the powershell command line.
+Normally a specific command would be run.
+If anybody is interested, try making powershell execute an actual command.
 
 ## Precautions before testing: ##
 
