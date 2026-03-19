@@ -51,13 +51,27 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 *We will be going over 2 extremely simple attacks to start you off*
 *More complicated attacks can be found through the Hak5 website*
 
-### First Attack: Notepad String ###
+## First Attack: Notepad String ##
+*The attack*
+
+`ATTACKMODE HID`
+`LED B SLOW`
+`QUACK DELAY 1000`
+`RUN WIN notepad.exe`
+`QUACK DELAY 3000`
+`QUACK STRING Hello World!!!`
+`QUACK DELAY 1000`
+`QUACK ENTER`
+`QUACK STRING Bye World...`
+`QUACK DELAY 3000`
+`QUACK CTRL a`
+`QUACK BACKSPACE`
 
 *It's important to understand what each command does, so we'll walk through the purpose of each line*
 
 `ATTACKMODE HID`
 - Acts as a USB Keyboard
-- tricks the debvice into giving access to the Bash Bunny
+- tricks the device into giving access to the Bash Bunny
 
 `LED B SLOW`
 - Makes the LED on the Bash Bunny blink blue slowly
@@ -67,22 +81,38 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 - Waits 1000 milliseconds (1 second)
 - Gives the computer time to recognize the device
 
-`RUN WIN powershell.exe`
-- This simulates pressing the windows key
+`RUN WIN notepad.exe`
+- This opens the dialog box
 - Then types and runs powershell
 
-`QUACK DELAY 10000`
-- Waits another 10000 milliseconds (10 seconds)
-- Important to give powershell time to boot
-- 10000 may be too long, so find a range from 5000-10000
+`QUACK DELAY 3000`
+- Waits another 3000 milliseconds (3 seconds)
+- Important to give notepad time to boot
 
-`QUACK STRING Goodbye`
-- Types the word Goodbye into the powershell window
+`QUACK STRING Hello World!!!`
+- Types the words Hello World!!! into the notepad
 
-`QUACK DELAY 500`
-- Here for any commands you would put after
+`QUACK DELAY 1000`
+- Waits 1000 milliseconds (1 second)
+- Gives the computer time to print the string
 
-### Second Attack: Command Line Execution ###
+`QUACK ENTER`
+- Goes to the next line
+
+`QUACK STRING Bye World...`
+- Types the words Bye World... into the notepad
+
+`QUACK DELAY 3000`
+- Waits 3000 milliseconds (3 seconds)
+- Admire your work!
+  
+`QUACK CTRL a`
+- Highlights everything that has been written
+
+`QUACK BACKSPACE`
+- Deletes everything
+
+## Second Attack: Command Line Execution ##
 
 *It's important to understand what each command does, so we'll walk through the purpose of each line*
 
