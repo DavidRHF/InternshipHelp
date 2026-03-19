@@ -51,7 +51,7 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 *We will be going over 2 extremely simple attacks to start you off*
 *More complicated attacks can be found through the Hak5 website*
 
-## First Attack: Notepad String ##
+### First Attack: Notepad String ###
 
 ```
 ATTACKMODE HID
@@ -68,7 +68,7 @@ QUACK CTRL a
 QUACK BACKSPACE
 ```
 
-*It's important to understand what each command does, so we'll walk through the purpose of each line*
+#### *It's important to understand what each command does, so we'll walk through the purpose of each line* ####
 
 `ATTACKMODE HID`
 - Acts as a USB Keyboard
