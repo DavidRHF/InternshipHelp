@@ -102,13 +102,13 @@ QUACK BACKSPACE
 
 `QUACK STRING Bye World...`
 - Types the words Bye World... into the notepad
+  
+`QUACK CTRL a`
+- Highlights everything that has been written
 
 `QUACK DELAY 3000`
 - Waits 3000 milliseconds (3 seconds)
 - Admire your work!
-  
-`QUACK CTRL a`
-- Highlights everything that has been written
 
 `QUACK BACKSPACE`
 - Deletes everything
