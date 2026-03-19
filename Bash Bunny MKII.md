@@ -54,18 +54,18 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 ## First Attack: Notepad String ##
 *The attack*
 
-`ATTACKMODE HID`
-`LED B SLOW`
-`QUACK DELAY 1000`
-`RUN WIN notepad.exe`
-`QUACK DELAY 3000`
-`QUACK STRING Hello World!!!`
-`QUACK DELAY 1000`
-`QUACK ENTER`
-`QUACK STRING Bye World...`
-`QUACK DELAY 3000`
-`QUACK CTRL a`
-`QUACK BACKSPACE`
+**ATTACKMODE HID
+LED B SLOW
+QUACK DELAY 1000
+RUN WIN notepad.exe
+QUACK DELAY 3000
+QUACK STRING Hello World!!!
+QUACK DELAY 1000
+QUACK ENTER
+QUACK STRING Bye World...
+QUACK DELAY 3000
+QUACK CTRL a
+QUACK BACKSPACE**
 
 *It's important to understand what each command does, so we'll walk through the purpose of each line*
 
