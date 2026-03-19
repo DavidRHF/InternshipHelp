@@ -47,12 +47,12 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 
 
 ## Practice attacks ##
-
+---
 *We will be going over 2 extremely simple attacks to start you off*
 *More complicated attacks can be found through the Hak5 website*
 
 ### First Attack: Notepad String ###
----
+
 *It's important to understand what each command does, so we'll walk through the purpose of each line*
 
 `ATTACKMODE HID`
@@ -81,10 +81,9 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 
 `QUACK DELAY 500`
 - Here for any commands you would put after
----
 
-### First Attack: Notepad ###
----
+### Second Attack: Command Line Execution ###
+
 *It's important to understand what each command does, so we'll walk through the purpose of each line*
 
 `ATTACKMODE HID`
