@@ -53,7 +53,7 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 
 ## First Attack: Notepad String ##
 
-``
+```
 ATTACKMODE HID
 LED B SLOW
 QUACK DELAY 1000
@@ -66,7 +66,7 @@ QUACK STRING Bye World...
 QUACK DELAY 3000
 QUACK CTRL a
 QUACK BACKSPACE
-``
+```
 
 *It's important to understand what each command does, so we'll walk through the purpose of each line*
 
