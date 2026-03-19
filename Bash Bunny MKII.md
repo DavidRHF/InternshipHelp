@@ -51,37 +51,9 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 *We will be going over 2 extremely simple attacks to start you off*
 *More complicated attacks can be found through the Hak5 website*
 
-### First Attack: Notepad ###
+### First Attack: Notepad String ###
+---
 *It's important to understand what each command does, so we'll walk through the purpose of each line*
-
-`ATTACKMODE HID`
-- Acts as a USB Keyboard
-- tricks the debvice into giving access to the Bash Bunny
-
-`DELAY 3000`
-- Waits 3000 milliseconds (3 second)
-- Gives the computer time to recognize the device
-
-`GUI r`
-- Simulates opening the dialog box
-- win + r
-
-`DELAY 500`
-- Waits 500 milliseconds (0.5 seconds)
-- Gives the computer time to open the dialog box
-
-`STRING notepad`
-- Types notepad in the dialog box
-
-`ENTER`
-- Enters string
-
-# Writes in the notepad and adds a new line
-STRING Bash Bunny payload executed
-ENTER
-
-### Second Attack: Powershell Command ###
-*This attack contains a couple most elements that are important for attacks*
 
 `ATTACKMODE HID`
 - Acts as a USB Keyboard
@@ -109,11 +81,39 @@ ENTER
 
 `QUACK DELAY 500`
 - Here for any commands you would put after
+---
 
-In this case, nothing important is run on the powershell command line.
-Normally a specific command would be run.
-If anybody is interested, try making powershell execute an actual command.
+### First Attack: Notepad ###
+---
+*It's important to understand what each command does, so we'll walk through the purpose of each line*
 
+`ATTACKMODE HID`
+- Acts as a USB Keyboard
+- tricks the debvice into giving access to the Bash Bunny
+
+`DELAY 3000`
+- Waits 3000 milliseconds (3 second)
+- Gives the computer time to recognize the device
+
+`GUI r`
+- Simulates opening the dialog box
+- win + r
+
+`DELAY 500`
+- Waits 500 milliseconds (0.5 seconds)
+- Gives the computer time to open the dialog box
+
+`STRING notepad`
+- Types notepad in the dialog box
+
+`ENTER`
+- Enters string
+
+Writes in the notepad and adds a new line
+STRING Bash Bunny payload executed
+ENTER
+
+---
 
 ## Troubleshooting ##
 
