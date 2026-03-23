@@ -68,7 +68,10 @@ QUACK ENTER
 QUACK STRING Bye World...
 QUACK DELAY 3000
 QUACK CTRL a
+QUACK DELAY 3000
 QUACK BACKSPACE
+QUACK DELAY 1000
+QUACK ALT F4
 ```
 
 #### *It's important to understand what each command does, so we'll walk through the purpose of each line* ####
@@ -115,6 +118,12 @@ QUACK BACKSPACE
 
 `QUACK BACKSPACE`
 - Deletes everything
+
+`QUACK DELAY 1000`
+- Waits 1000 milliseconds (1 seconds)
+
+`QUACK ALT F4`
+- Closes notepad
 
 ## Second Attack: Command Line Execution ##
 
