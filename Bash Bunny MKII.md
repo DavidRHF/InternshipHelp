@@ -125,9 +125,9 @@ QUACK ALT F4
 `QUACK ALT F4`
 - Closes notepad
 
-## Second Attack: Command Line Execution ##
+## Second Attack: Save a file then delete it ##
 
-*It's important to understand what each command does, so we'll walk through the purpose of each line*
+#### *I won't explain some previously shown commands in detail, only the new ones* ####
 
 `ATTACKMODE HID`
 - Acts as a USB Keyboard
