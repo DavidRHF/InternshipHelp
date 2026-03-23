@@ -51,8 +51,8 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 
 ## Practice attacks ##
 
-*We will be going over 2 extremely simple attacks to start you off*
-*More complicated attacks can be found through the Hak5 website*
+*We will be going over 2 extremely simple attacks in ducky script to start you off.*
+*More complicated attacks can be found through the Hak5 website.*
 
 ---
 
@@ -134,9 +134,9 @@ ATTACKMODE HID
 LED G FAST
 QUACK DELAY 1000
 RUN WIN notepad.exe
-QUACK DELAY 1500
-QUACK STRING Important information!
 QUACK DELAY 1000
+QUACK STRING Important information!
+QUACK DELAY 500
 QUACK CTRL s
 QUACK DELAY 1500
 QUACK STRING %USERPROFILE%\\Documents\\Target
