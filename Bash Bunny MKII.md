@@ -50,9 +50,11 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 
 
 ## Practice attacks ##
----
+
 *We will be going over 2 extremely simple attacks to start you off*
 *More complicated attacks can be found through the Hak5 website*
+
+---
 
 ### First Attack: Notepad String ###
 
@@ -126,6 +128,39 @@ QUACK ALT F4
 - Closes notepad
 
 ## Second Attack: Save a file then delete it ##
+
+```
+ATTACKMODE HID
+LED G FAST
+QUACK DELAY 1000
+RUN WIN notepad.exe
+QUACK DELAY 1500
+QUACK STRING Important information!
+QUACK DELAY 1000
+QUACK CTRL s
+QUACK DELAY 1500
+QUACK STRING %USERPROFILE%\\Documents\\Target
+QUACK ENTER
+QUACK DELAY 1500
+QUACK CTRL s
+QUACK DELAY 500
+QUACK ALT F4
+QUACK DELAY 500
+
+LED R SLOW
+RUN WIN cmd.exe
+QUACK DELAY 1500
+QUACK STRING cd ..
+QUACK ENTER
+QUACK DELAY 500
+QUACK STRING cd %USERPROFILE%\\Documents
+QUACK DELAY 500
+QUACK STRING del Target
+QUACK ENTER
+QUACK DELAY 500
+QUACK STRING exit
+QUACK ENTER
+```
 
 #### *I won't explain some previously shown commands in detail, only the new ones* ####
 
