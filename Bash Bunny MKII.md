@@ -164,31 +164,32 @@ QUACK ENTER
 
 #### *I won't explain some previously shown commands in detail, only the new ones* ####
 
-`ATTACKMODE HID`
-- Acts as a USB Keyboard
-- tricks the debvice into giving access to the Bash Bunny
+`LED G FAST`
+- Fast flashing of green to
+- Indicates first part of the attack
 
-`DELAY 3000`
-- Waits 3000 milliseconds (3 second)
-- Gives the computer time to recognize the device
+`QUACK CTRL s`
+- Opens the save as menu
 
-`GUI r`
-- Simulates opening the dialog box
-- win + r
+`QUACK STRING %USERPROFILE%\\Documents\\Target`
+- Puts our newly made notepad in documents
+- %USERPROFILE% opens the current user path
 
-`DELAY 500`
-- Waits 500 milliseconds (0.5 seconds)
-- Gives the computer time to open the dialog box
+`LED R SLOW`
+- Blinks a slow red
+- Indicates second part of the attack
 
-`STRING notepad`
-- Types notepad in the dialog box
+`QUACK STRING cd ..`
+- Goes to root
 
-`ENTER`
-- Enters string
+`QUACK STRING cd %USERPROFILE%\\Documents`
+- Goes to the directory we put target in
 
-Writes in the notepad and adds a new line
-STRING Bash Bunny payload executed
-ENTER
+`QUACK STRING del Target`
+- Deletes our target file
+
+`QUACK STRING exit`
+- Exit cmd
 
 ---
 
