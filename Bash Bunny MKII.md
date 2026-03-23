@@ -40,9 +40,12 @@ Dowload the latest firmware from this page:
 
 Once the LED indicates the download was succesful, your Bash Bunny MKII should contain these files:
 
-*Payload should not be present just yet, we'll get into that soon*
+*Payload and some other folders should not be present just yet, we'll get into that soon*
 ![Picture 2](images/BashBunnyMKII-Photo2.png)
 
+## File setup ##
+
+*For the Bash Bunny MKII to store and execute commands, we will need a payloads folder with a folder for each switch*
 
 
 
