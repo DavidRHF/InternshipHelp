@@ -197,11 +197,11 @@ QUACK ENTER
 
 *The target device will most likely have defenses against unknown USBs, so the attack may not run.*
 
-To avoid this we will check permissions.
+[Bash Bunny Help](https://github.com/xitizbasnet/How-to-Enable-Group-Policy-Editor-gpedit.msc-on-Windows-11-Home-Edition)
+*Make sure group policy editor is installed on your computer so that we can check and disable permissions*
+*Some sights can be risky but this Github tutorial is solid*
 
 Must disable in removable storage access.
-Make sure group policy editor is installed on your computer
-
 - Win + r
 - gpedit.msc
 - Make sure it is installed
