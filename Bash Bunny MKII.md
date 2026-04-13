@@ -46,8 +46,8 @@ Once the LED indicates the download was succesful, your Bash Bunny MKII should c
 ## File setup ##
 
 *For the Bash Bunny MKII to store and execute commands, we will need a payloads folder with a folder for each switch*
-
-
+- The correct set-up can be seen in the above image
+- Make sure it has the exact same naming scheme as I have it
 
 ## Practice attacks ##
 
