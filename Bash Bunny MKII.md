@@ -132,41 +132,54 @@ QUACK ALT F4
 ```
 ATTACKMODE HID
 LED G FAST
-QUACK DELAY 1000
-RUN WIN notepad.exe
-QUACK DELAY 1000
-QUACK STRING Important information!
 QUACK DELAY 500
+RUN WIN notepad.exe
+QUACK DELAY 700
+QUACK ENTER
+QUACK DELAY 300
+QUACK CTRL n
+QUACK DELAY 300
+QUACK STRING Important information!
+QUACK DELAY 300
 QUACK CTRL s
-QUACK DELAY 1500
+QUACK DELAY 1000
 QUACK STRING %USERPROFILE%\\Documents\\Target
 QUACK ENTER
-QUACK DELAY 1500
+QUACK DELAY 1000
 QUACK CTRL s
-QUACK DELAY 500
+QUACK DELAY 300
 QUACK ALT F4
-QUACK DELAY 500
+QUACK DELAY 300
 
 LED R SLOW
+QUACK DELAY 500
 RUN WIN cmd.exe
-QUACK DELAY 1500
-QUACK STRING cd ..
+QUACK DELAY 700
+QUACK STRING cd \\
 QUACK ENTER
-QUACK DELAY 500
+QUACK DELAY 300
 QUACK STRING cd %USERPROFILE%\\Documents
-QUACK DELAY 500
-QUACK STRING del Target
+QUACK DELAY 300
 QUACK ENTER
-QUACK DELAY 500
-QUACK STRING exit
+QUACK DELAY 300
+QUACK STRING del Target.txt
 QUACK ENTER
+QUACK DELAY 300
+QUACK STRING cls
+QUACK ENTER
+QUACK DELAY 300
+QUACK ALT F4
 ```
 
 #### *I won't explain some previously shown commands in detail, only the new ones* ####
 
 `LED G FAST`
-- Fast flashing of green to
+- Fast flashing of green
 - Indicates first part of the attack
+
+`QUACK CTRL n`
+- Opens a new tab in notepad
+- In case another tab is already in use
 
 `QUACK CTRL s`
 - Opens the save as menu
@@ -185,11 +198,8 @@ QUACK ENTER
 `QUACK STRING cd %USERPROFILE%\\Documents`
 - Goes to the directory we put target in
 
-`QUACK STRING del Target`
+`QUACK STRING del Target.txt`
 - Deletes our target file
-
-`QUACK STRING exit`
-- Exit cmd
 
 ---
 
