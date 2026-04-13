@@ -219,10 +219,9 @@ Must disable in removable storage access.
 Removable Disks: 
 - Deny execute access
 - Deny write access
+- (Change to allow)
 
-this is important since it will
-
-
+*This is important since it will allow unrestricted USB execution and writing*
 
 ## Possible Prevention Options ##
 *There are multiple prevention techniques but it's important to remember that there is no perfect defense. Due to the way Bash Bunny MKII operates, many concrete defenses feature USB restrictions, policy, and endpoint protection.*
