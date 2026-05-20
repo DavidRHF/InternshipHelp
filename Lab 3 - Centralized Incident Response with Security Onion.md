@@ -37,6 +37,10 @@ Lets set up our filters to find our alerts:
 
 
 
+# FINALITY REQUIREMENT TBD #
+
+
+
 
 
 
